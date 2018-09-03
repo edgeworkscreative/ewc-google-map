@@ -1,0 +1,52 @@
+{
+  "name": "@edgeworkscreative/ewc-google-map",
+  "version": "0.0.1",
+  "description": "Google Maps Place card web component built with StencilJS",
+  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "jest",
+    "test.watch": "jest --watch"
+  },
+  "dependencies": {
+    "@edgeworkscreative/ewc-slides": "0.0.7",
+    "@ionic/core": "^4.0.0-beta.7",
+    "ionicons": "^4.4.3"
+  },
+  "devDependencies": {
+    "@stencil/core": "^0.12.1",
+    "@types/googlemaps": "^3.30.12",
+    "@types/jest": "^23.3.1",
+    "jest": "^23.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgeworkscreative/ewc-google-map.git"
+  },
+  "author": "Edgeworks Creative",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edgeworkscreative/ewc-google-map"
+  },
+  "homepage": "https://github.com/edgeworkscreative/ewc-google-map",
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json",
+      "jsx"
+    ]
+  }
+}

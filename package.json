@@ -13,7 +13,8 @@
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
     "test": "jest",
-    "test.watch": "jest --watch"
+    "test.watch": "jest --watch",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s"
   },
   "dependencies": {
     "@edgeworkscreative/ewc-slides": "0.0.7",

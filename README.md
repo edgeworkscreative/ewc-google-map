@@ -4,6 +4,8 @@
 
 Google Maps Place card web component built with StencilJS.
 
+So simple, it works with only two lines of code! [JSFiddle](https://jsfiddle.net/v3a4urwL/1/)
+
 ###### WIP
 
 ![Preview](screenshot.png)

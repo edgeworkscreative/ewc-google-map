@@ -25,7 +25,8 @@
     "@stencil/core": "^0.12.1",
     "@types/googlemaps": "^3.30.12",
     "@types/jest": "^23.3.1",
-    "jest": "^23.5.0"
+    "jest": "^23.5.0",
+    "conventional-changelog-cli": "^2.0.5"
   },
   "repository": {
     "type": "git",
